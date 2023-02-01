@@ -48,7 +48,7 @@ with lib;
     ports = [ 22 ];
     openFirewall = true;
     permitRootLogin = "no";
-    passwordAuthentication = false;
+    passwordAuthentication = true;
     startWhenNeeded  = true;
   };
 
